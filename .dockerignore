@@ -1,0 +1,25 @@
+# Ignore virtual environments
+venv/
+src/**/venv_*
+
+# Ignore version control
+.git
+.gitignore
+
+# Ignore system files
+.DS_Store
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore local environment files
+.env
+
+# Ignore test files and data
+tests/

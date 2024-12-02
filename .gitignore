@@ -1,0 +1,46 @@
+# Ignore virtual environments
+**/venv*/
+**/venv_*/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore credentials (local development only)
+config/
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE configurations (e.g., VSCode, JetBrains)
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+*.cover
+
+# Ignore Docker/Build-related files
+*.envrc
+*.local
+.envrc
+
+# Ignore compiled Python files
+*.pyo
+*.pyd
+*.whl
+
+# Ignore Spark-related virtual environments
+**/spark/venv_*/
+
+# Ignore macOS-specific files
+.DS_Store
+
+.jar
+src/spark/venv_spark/lib/python3.10/site-packages/pyspark/jars/*.jar
+src/flink/venv_flink/lib/python3.10/site-packages/pyflink/lib/*.jar
