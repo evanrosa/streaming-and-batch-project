@@ -1,6 +1,6 @@
 # European Soccer Data Platform
 
-#### This project is in progress.
+#### This project is in progress. Need to add modules for airflow (issues with dependancies)
 
 This project is a data platform designed for analyzing European soccer data. It leverages a modern data stack including Apache Airflow, Apache Spark, Confluent Kafka, and Apache Flink, all orchestrated using Docker and GCP. The platform is built with Python and aims to provide a scalable and efficient solution for processing and analyzing soccer data.
 
